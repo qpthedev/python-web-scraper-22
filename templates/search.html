@@ -12,7 +12,16 @@
   </head>
   <body>
     <main class="container">
-      <h1>Search Results for "{{keyword}}"</h1>
+      <hgroup>
+        <h1>Search Results for "{{keyword}}"</h1>
+        <a
+          href="/export?keyword={{keyword}}"
+          target="_blank"
+          role="button"
+          class="outline"
+          >Export to CSV file</a
+        >
+      </hgroup>
       <figure>
         <table role="grid">
           <thead>
